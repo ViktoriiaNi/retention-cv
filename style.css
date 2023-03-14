@@ -219,9 +219,9 @@ body {
 }
 
 .promo-text-tiny{
-    font-size: small;
+    font-size: 13px;
     color: rgb(180, 180, 180);
-    width: 70%;
+    width: 50%;
 }
 
 .hire-button {
@@ -252,6 +252,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 10px;
 }
 
 .game-link{
@@ -264,7 +265,7 @@ body {
     color: azure;
 }
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 340px){
 
     body{
         font-size: 12px;
