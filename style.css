@@ -182,11 +182,11 @@ body {
 }
 
 .photo-promo{
-    width: 32em;
+    width: 65%;
     position: absolute;
-    right: 0px;
-    top: 40px;
     overflow: hidden;
+    right: 0;
+    bottom: 0;
 }
 
 .promo-container {
@@ -196,7 +196,7 @@ body {
 .promo-text{
     margin-top: 20px;
     height: 30em;
-    width: 30em;
+    width: 20em;
     margin: 20px;
 }
 
@@ -213,17 +213,50 @@ body {
 }
 
 .promo-text-smaill{
-    margin: 7px 0;
-    width: 210px;
+    margin: 20px 50px 100px;
 }
 
 .promo-text-tiny{
-    width: 60%;
+    font-size: small;
+    color: rgb(180, 180, 180);
+    width: 70%;
+}
+
+.hire-button {
+    margin-top: 15px;
+    background-color: #ec9a01d4;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.hire-button:hover {
+    background-color: #ec9a0115;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(236, 236, 236);
 }
 
 
 .footer{
     position: relative;
     height: 30px;
+    align-items: center;
 }
 
+.portfolio-container{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game-link{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+}
+
+.game-link:hover {
+    color: azure;
+}
