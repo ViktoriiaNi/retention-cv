@@ -269,6 +269,11 @@ body {
         max-width: 320px;
     }
 
+    .right-column {
+        padding-top: 5px;
+        height: 93%;
+    }
+
     .promo-text{
         height: 32em;
     }
