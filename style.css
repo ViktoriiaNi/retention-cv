@@ -137,7 +137,7 @@ body {
 }
 
 .phone{
-    text-decoration: none!important;;
+    text-decoration: unset;
 }
 
 .right-column {
@@ -211,7 +211,7 @@ body {
 .promo-text-main{
     margin: 5px 0;
     text-align: center;
-    text-decoration: none!important;
+    text-decoration: unset;
 }
 
 .promo-text-smaill{
@@ -294,7 +294,7 @@ body {
     }
 
     .promo-text-tiny{
-        font-size: 7px;
+        font-size: 5px;
         width: 40%;
     }
 
